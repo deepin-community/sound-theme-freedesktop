@@ -1,0 +1,24 @@
+Source: sound-theme-freedesktop
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: @GNOME_TEAM@
+Section: sound
+Priority: optional
+Build-Depends: debhelper (>= 11),
+               gnome-pkg-tools,
+               libglib2.0-dev,
+               intltool
+Standards-Version: 4.1.2
+Vcs-Git: https://anonscm.debian.org/git/pkg-gnome/sound-theme-freedesktop.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-gnome/sound-theme-freedesktop.git
+Homepage: https://www.freedesktop.org/wiki/Specifications/sound-theme-spec/
+
+Package: sound-theme-freedesktop
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: freedesktop.org sound theme
+ The default freedesktop.org sound theme following the XDG theming
+ specification. It contains a full set of sounds for different
+ desktop events.
+ .
+ These sounds come from various sources: KDE, Ekiga, Pidgin/Purple, ALSA.

@@ -1,0 +1,5 @@
+#!/usr/bin/make -f
+-include /usr/share/gnome-pkg-tools/1/rules/gnome-get-source.mk
+
+%:
+	dh $@ --with gnome

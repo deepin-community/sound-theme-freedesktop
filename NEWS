@@ -1,0 +1,87 @@
+==============
+Version 0.8
+==============
+
+ * change default bell sound (William Jon McCann)
+
+==============
+Version 0.7
+==============
+
+ * remove desktop login/logout for now (William Jon McCann)
+ * remove battery full sound for now (William Jon McCann)
+ * simplify the dialog sounds (William Jon McCann)
+ * remove dialog-ok (William Jon McCann)
+ * bump version in preparation for a release (William Jon McCann)
+ * remove dialog-ok since we don't want click sounds (William Jon McCann)
+ * add more credits (William Jon McCann)
+ * update camera shutter sound (William Jon McCann)
+ * add more specific credits (William Jon McCann)
+ * add credits list (William Jon McCann)
+ * add link to Fedora license rules (William Jon McCann)
+ * update volume change sound (William Jon McCann)
+ * trim silence off alarm sound (William Jon McCann)
+ * add new clock alarm sound (William Jon McCann)
+ * move alarm sound to incoming call sound (William Jon McCann)
+ * update camera shutter sound (William Jon McCann)
+ * remove dialog cancel (William Jon McCann)
+ * use old window new sound as the device added sound (William Jon McCann)
+ * remove battery low sound (William Jon McCann)
+ * remove click like sounds (William Jon McCann)
+ * remove many of the window sounds that are violently annoying (William Jon McCann)
+ * remove the menu click sound (William Jon McCann)
+ * remove the email sound (William Jon McCann)
+ * don't use sounds for menus (William Jon McCann)
+ * remove desktop switch sounds (William Jon McCann)
+ * restore the previous desktop login/logout sounds (William Jon McCann)
+ * add alarm-clock-elapsed and phone-outgoing-calling sound (Lennart Poettering)
+ * Borealis is actually artistic, not gpl (Lennart Poettering)
+ * rename all .ogg files to .oga since that's the official suffix (Lennart Poettering)
+ * replace battery-low sound (Lennart Poettering)
+ * add menu replace sound (Lennart Poettering)
+ * add window-new sound (Lennart Poettering)
+
+==============
+Version 0.6
+==============
+
+ * rename complete-media-burn.ogg to complete.ogg so that we can use it for all 'complete' events
+ * add battery-full.ogg, device-added.ogg, device-removed.ogg, menu-popup.ogg, window-attention.ogg, system-shutdown.ogg, system-ready.ogg
+ * create duplicate sounds as symlinks
+ * update a couple of sounds
+
+==============
+Version 0.5
+==============
+
+ * add window-unmaximize/window-unminimize (as per-sample reverse of window-maximize/window-minimize)
+ * add desktop-switch-left and desktop-switch-right (with a minimal spacial effect)
+ * add audio-volume-change
+
+==============
+Version 0.4
+==============
+
+ * add screen-capture as a copy of camera-shutter
+
+==============
+Version 0.3
+==============
+
+ * add camera-shutter
+
+==============
+Version 0.2
+==============
+
+ * add new dialog ok sound (William Jon McCann)
+ * add new dialog cancel sound (William Jon McCann)
+ * add new bell sound (William Jon McCann)
+ * new complete burn sound (William Jon McCann)
+ * add camera shutter sound (William Jon McCann)
+ * update incoming call sound (William Jon McCann)
+ * new trash empty sound (William Jon McCann)
+ * add new login/logout sounds from Mike Langlie (William Jon McCann)
+ * add new sounds for power management apps (William Jon McCann)
+ * add autotools gunk (Jon McCann)
+ * initial checkin (Jon McCann)
